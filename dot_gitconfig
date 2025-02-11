@@ -1,0 +1,11 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[url "gitea:"]
+	insteadOf = git@192.168.1.107:3022/
+[user]
+	name = eginoy
+	email = eginoy.dev@gmail.com
