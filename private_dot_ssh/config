@@ -1,0 +1,36 @@
+Host arch-vm
+  HostName 192.168.0.15
+  User arch-vm
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
+
+Host tv
+  HostName 192.168.0.17
+  User tv
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
+
+Host proxmox
+  HostName 192.168.0.10
+  User root
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
+
+Host server
+  HostName 192.168.1.107
+  User eginoy
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
+
+Host router
+  HostName 192.168.1.1
+  User root
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
+
+Host gitea
+  HostName 192.168.1.107
+  Port 3022
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+
