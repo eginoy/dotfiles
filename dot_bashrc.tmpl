@@ -7,12 +7,14 @@ case $- in
     *) return;;
 esac
 
-export OSH='/Users/eginoy/.oh-my-bash'
 
 # machine-specific configuration
 {{- if eq .chezmoi.os "linux" }}
-# Path to your oh-my-bash installation.
+# linux
 export OSH='/home/eginoy/.oh-my-bash'
+{{- else if eq .chezmoi.os "darwin" }}
+# mac
+export OSH='/Users/eginoy/.oh-my-bash'
 {{- end }}
 
 export EDITOR=vim
