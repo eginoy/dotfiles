@@ -1,3 +1,6 @@
 syntax enable
 inoremap jj <ESC>
-set clipboard=unnamedplus
+set clipboard=unnamed
+set tabstop=4     " 画面上のTab幅を4に設定
+set shiftwidth=4  " 自動インデント時のスペース数を4に設定
+set softtabstop=4 " バックスペースで消すスペース数を4に設定
